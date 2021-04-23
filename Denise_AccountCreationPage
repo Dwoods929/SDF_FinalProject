@@ -1,0 +1,29 @@
+Display "Account Creation" Page
+If user hasn't entered email address in first text box
+	Display error message.
+If user has entered email address
+	search data base for matching emails
+		if matching email is found
+		display "email address is already taken"
+If user had entered password
+	double check it meets password requirements
+	if not, display "password not strong enough"
+If user created username
+	search data base for matching usernames
+		if matching username is found
+		display "Name is taken"
+Display calender for user to select their birthday
+If User selects to "Add profile picture"
+	ask for access to device photos
+	store chosen photo in data base
+If User selects to "Add bio"
+	Allow user to type up to 500 characters
+When "Finish Account Set Up" is clicked
+	compile all data and store 
+	display all information in profile format
+If User chooses to "Find friends from contact"
+	ask for permission to User's contact
+	gather data that is already in database
+	show profiles with contact information
+	allow user to add them
+Display "Your account is all set up"
